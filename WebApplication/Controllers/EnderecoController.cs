@@ -24,7 +24,7 @@ namespace WebApplication.Controllers
 
             if (_context.Enderecos.Count() == 0) 
             {
-                _context.Enderecos.Add(new Endereco { Bairro = "Cidade Industrial de Curitiba", CEP = "80740-050", Complemento = "", Localidade = "Curitiba", Logradouro = "Rua Professor Pedro Viriato Parigot de Souza", UF = "PR" });
+                _context.Enderecos.Add(new Endereco { Bairro = "Boqueirão", CEP = "81730-040", Complemento = "de 3656/3657 ao fim", Localidade = "Curitiba", Logradouro = "Rua Bartolomeu Lourenço Gusmão", UF = "PR" });
                 _context.SaveChanges();
             }
         }
